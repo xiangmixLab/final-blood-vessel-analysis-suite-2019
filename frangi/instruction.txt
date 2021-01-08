@@ -1,0 +1,5 @@
+Just run main2.m, it will call all the functions.
+
+Use the param.m to set some parameters.
+
+the results will saved in tempresult folder.
