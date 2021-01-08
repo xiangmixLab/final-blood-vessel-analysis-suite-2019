@@ -30,7 +30,7 @@ cen_line=find_central_line_func(vessel);
 %         [velomap,velodir_map]=velocity_tracking_050120(rbc_vid_thresh,vessel,frame_rate(i));
 
 %% colormap of velocity
-[vessel_color]=generate_velo_colormap(acontrast2,velomap,vessel,[0 1500]); % [0 1500]: speed range, 0mm/s-1500mm/s
+[vessel_color]=generate_velo_colormap(acontrast2,velomap,vessel,[0 1500]); % [0 1500]: speed range, 0mm/s-1500um/s
 
 %% save data
 save([destination,'\','data.mat'],'acontrast2','vessel','velomap','vessel_color','lineProfile','cen_line');
